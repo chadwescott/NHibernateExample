@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Example", "NHibe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Example.Tests", "NHibernate.Example.Tests\NHibernate.Example.Tests.csproj", "{8EA144BB-55A4-47FB-A196-37F02030A4AB}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NHibernate.Example.Database", "NHibernate.Example.Database\NHibernate.Example.Database.sqlproj", "{255DB342-B29F-48DF-9E50-2C0C2BE73821}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{8EA144BB-55A4-47FB-A196-37F02030A4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EA144BB-55A4-47FB-A196-37F02030A4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EA144BB-55A4-47FB-A196-37F02030A4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255DB342-B29F-48DF-9E50-2C0C2BE73821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255DB342-B29F-48DF-9E50-2C0C2BE73821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255DB342-B29F-48DF-9E50-2C0C2BE73821}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{255DB342-B29F-48DF-9E50-2C0C2BE73821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255DB342-B29F-48DF-9E50-2C0C2BE73821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255DB342-B29F-48DF-9E50-2C0C2BE73821}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
